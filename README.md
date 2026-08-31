@@ -190,16 +190,16 @@ In this blog, we will learn about Medusa, a simple way to make a language model 
 
 We will cover the following:
 
-- What is Medusa
-- Why text generation is slow
-- A quick recap of speculative decoding
-- The problem with needing a draft model
-- The big idea: many heads on one model
-- How tree attention checks many guesses at once
-- The math behind the speedup with small numbers
-- The results
-- How Medusa lives on today
-- Quick Summary
+* What is Medusa
+* Why text generation is slow
+* A quick recap of speculative decoding
+* The problem with needing a draft model
+* The big idea: many heads on one model
+* How tree attention checks many guesses at once
+* The math behind the speedup with small numbers
+* The results
+* How Medusa lives on today
+* Quick Summary
 
 Let's get started: [Decoding Medusa](https://outcomeschool.com/blog/decoding-medusa)
 
