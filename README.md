@@ -205,6 +205,26 @@ Let's get started: [Decoding Medusa](https://outcomeschool.com/blog/decoding-med
 
 ---
 
+## Decoding EAGLE
+
+In this blog, we will learn about EAGLE, a state-of-the-art way to speed up language model generation by drafting tokens at the feature level instead of the token level.
+
+We will cover the following:
+
+* What is EAGLE
+* A quick recap of speculative decoding
+* The problem with token-level drafting
+* The big idea: draft at the feature level
+* Resolving the uncertainty by feeding back the token
+* The math behind the speedup with small numbers
+* EAGLE-2 and dynamic draft trees
+* How EAGLE lives on today
+* Quick Summary
+
+Let's get started: [Decoding EAGLE](https://outcomeschool.com/blog/decoding-eagle)
+
+---
+
 ## How does Token Streaming work?
 
 In this blog, we will learn about how Token Streaming works. We will also see why we need it, how the server and the browser talk to each other to make it happen, and where it is used in real systems like ChatGPT and Claude.
