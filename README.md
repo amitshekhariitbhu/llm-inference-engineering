@@ -480,6 +480,32 @@ Let's get started: [How does a Google TPU work?](https://outcomeschool.com/blog/
 
 ---
 
+## How does an LPU work?
+
+In this blog, we will learn about how an LPU works, the chip that was built for one single job, running a large language model and printing words on our screen as fast as possible. We will also see what an LPU actually is, how a language model writes text one token at a time, why memory and not math is the real bottleneck, how an LPU keeps the model right next to the compute, how the compiler plans every single cycle in advance, how hundreds of chips work together like an assembly line, and where it works well and where it fails.
+
+We will cover the following:
+
+* What is an LPU?
+* How an LLM writes text, one token at a time
+* The real bottleneck is memory, not math
+* Why a GPU struggles here
+* Idea 1: Keep the model on the chip
+* The problem with on-chip memory
+* Idea 2: Remove all the guesswork
+* Idea 3: A network that never waits
+* The assembly line
+* What happens when we send a prompt
+* Why an LPU is fast, all in one place
+* Where an LPU works well
+* Where an LPU does not work well
+* LPU vs GPU
+* When to use which one
+
+Let's get started: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)
+
+---
+
 ## More blogs and videos coming soon!
 
 ### License
