@@ -318,6 +318,36 @@ Let's get started: [How does SGLang work?](https://outcomeschool.com/blog/how-do
 
 ---
 
+## How does TensorRT-LLM work?
+
+In this blog, we will learn about how TensorRT-LLM works, NVIDIA's own engine that squeezes the highest possible speed out of an NVIDIA GPU when it runs a large language model. We will also see what inference means, what a GPU kernel is, why a normal model run wastes a lot of the GPU's time, how TensorRT-LLM prepares the model ahead of time instead of figuring things out on the fly, how kernel fusion, quantization, the paged KV cache, in-flight batching, CUDA graphs, and speculative decoding each add speed, how one model is spread across many GPUs, and where it works well and where it fails.
+
+We will cover the following:
+
+* What is inference
+* What is a GPU and what is a kernel
+* The problem: the GPU spends its time on the wrong things
+* What is TensorRT-LLM
+* The big idea: prepare the model ahead of time
+* The build step: from a model to an engine
+* Kernel fusion
+* Quantization
+* Custom attention kernels
+* The paged KV cache
+* In-flight batching
+* CUDA graphs
+* Speculative decoding
+* Running one model across many GPUs
+* How we actually serve the model
+* The PyTorch backend, the newer and easier path
+* The full journey of one request
+* TensorRT-LLM vs vLLM
+* Where it works well and where it fails
+
+Let's get started: [How does TensorRT-LLM work?](https://outcomeschool.com/blog/how-does-tensorrt-llm-work)
+
+---
+
 ## How does GGUF work?
 
 In this blog, we will learn about how GGUF works. We will also see what problem it solves, what is stored inside a GGUF file, how quantization makes big models fit on a normal laptop, and where it is used in real tools.
