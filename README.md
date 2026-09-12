@@ -81,6 +81,28 @@ Let's get started: [KV Cache in LLMs](https://outcomeschool.com/blog/kv-cache-in
 
 ---
 
+## KV Cache Compression
+
+In this blog, we will learn about KV Cache Compression, the set of techniques that shrink the memory an AI model uses to remember the conversation while it is writing its reply. We will also see how an LLM writes one token at a time, what the KV Cache is and why we need it, why this cache becomes so huge, how quantization stores the same memory in fewer bits, how we can throw away the tokens that do not matter, how sharing across attention heads reduces the cache, how the cache can be squeezed into a small hidden vector, and when to use which one.
+
+We will cover the following:
+
+* What is an LLM and how it writes text
+* What is Attention
+* What is the KV Cache
+* Why the KV Cache becomes huge
+* What is KV Cache Compression
+* Approach 1: Quantization
+* Approach 2: Token Eviction
+* Approach 3: Sharing Keys and Values across Heads
+* Approach 4: Low-Rank Compression
+* Comparison of the approaches
+* When to use which one
+
+Let's get started: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
+
+---
+
 ## Paged Attention in LLMs
 
 In this blog, we will learn about Paged Attention, a technique that solves the memory waste problem of KV Cache. It allows LLMs to serve many more users at the same time.
