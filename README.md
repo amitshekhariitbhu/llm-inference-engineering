@@ -67,6 +67,30 @@ Let's get started: [Prefill vs Decode: LLM Inference Optimization](https://outco
 
 ---
 
+## Prefill-Decode Disaggregation
+
+In this blog, we will learn about Prefill-Decode Disaggregation, a way of running a large language model where the reading of the prompt and the writing of the answer happen on separate machines. We will also see how an LLM answers a request in two phases, what the KV Cache is, why the two phases need different things from the hardware, what goes wrong when both run on the same machine, how disaggregation solves it step by step, its advantages and disadvantages, and where it works well and where it is overkill.
+
+We will cover the following:
+
+* How an LLM answers a request
+* What is the KV Cache?
+* Prefill is compute-heavy, Decode is memory-heavy
+* The problem when both run on the same GPU
+* TTFT vs TPOT
+* The naive approaches and their issues
+* What is Prefill-Decode Disaggregation?
+* How Prefill-Decode Disaggregation works
+* Walkthrough of one request
+* Advantages of Prefill-Decode Disaggregation
+* Disadvantages of Prefill-Decode Disaggregation
+* Where it works well and where it is overkill
+* Co-located vs Disaggregated serving
+
+Let's get started: [Prefill-Decode Disaggregation](https://outcomeschool.com/blog/prefill-decode-disaggregation)
+
+---
+
 # Part 2: Memory and Attention Optimizations
 
 Now that we understand the generation loop, let's attack its biggest bottlenecks: repeated computation, wasted GPU memory, and the cost of attention itself.
