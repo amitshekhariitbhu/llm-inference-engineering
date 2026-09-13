@@ -247,6 +247,27 @@ Let's get started: [Decoding EAGLE](https://outcomeschool.com/blog/decoding-eagl
 
 ---
 
+## N-gram Speculation in LLMs
+
+In this blog, we will learn about N-gram Speculation in LLMs, a simple trick that makes a language model write its answer faster by guessing the next few words from the text it has already seen. We will also see how an LLM writes one token at a time, why that is slow, what Speculative Decoding is, what an n-gram is, how N-gram Speculation guesses the next tokens by looking up the prompt, how the model verifies those guesses without changing the final answer, and where it works well and where it fails.
+
+We will cover the following:
+
+* How an LLM generates text
+* Why generating text is slow
+* What is Speculative Decoding
+* The cost of a draft model
+* What is an N-gram
+* What is N-gram Speculation
+* N-gram Speculation step by step
+* Why the output stays exactly the same
+* Where it works well and where it fails
+* N-gram Speculation vs Draft Model Speculative Decoding
+
+Let's get started: [N-gram Speculation in LLMs](https://outcomeschool.com/blog/n-gram-speculation-in-llms)
+
+---
+
 ## How does Token Streaming work?
 
 In this blog, we will learn about how Token Streaming works. We will also see why we need it, how the server and the browser talk to each other to make it happen, and where it is used in real systems like ChatGPT and Claude.
