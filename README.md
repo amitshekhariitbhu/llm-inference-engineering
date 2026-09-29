@@ -556,6 +556,28 @@ Let's get started: [How does a GPU work for Deep Learning?](https://outcomeschoo
 
 ---
 
+## How do CUDA Kernels work?
+
+In this blog, we will learn about how CUDA Kernels work. We will also see why we need a GPU, what CUDA is, how one kernel runs on thousands of threads at the same time, how each thread finds its own work, what happens inside the GPU when a kernel runs, and why CUDA Kernels matter so much for AI.
+
+We will cover the following:
+
+* Why do we need a GPU?
+* What is CUDA?
+* What is a CUDA Kernel?
+* Threads, Blocks, and Grids
+* Host and Device
+* Writing our first CUDA Kernel
+* How a thread finds its own work
+* What happens inside the GPU when a kernel runs
+* Memory in CUDA
+* Why CUDA Kernels matter for AI
+* Where CUDA Kernels work well and where they fail
+
+Let's get started: [How do CUDA Kernels work?](https://outcomeschool.com/blog/how-do-cuda-kernels-work)
+
+---
+
 ## How does a Google TPU work?
 
 In this blog, we will learn about how a Google TPU works. We will also see what a TPU is, why Google built it, how it is different from a CPU and a GPU, and how it makes machine learning fast.
