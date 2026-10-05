@@ -436,6 +436,28 @@ Let's get started: [How does GGUF work?](https://outcomeschool.com/blog/how-does
 
 ---
 
+## How does Ollama work?
+
+In this blog, we will learn about how Ollama works. We will also see what running an LLM locally means, how quantization and the GGUF format make big models fit on a laptop, how the client and server talk to each other, what happens step by step when we run a model, and how we can use Ollama from our code.
+
+We will cover the following:
+
+* What does running an LLM locally mean
+* What is Ollama
+* The big problem: models are huge
+* Quantization and the GGUF file format
+* The architecture: client and server
+* What happens when we run a model
+* How models are downloaded and stored
+* How the model runs on CPU and GPU
+* What is a Modelfile
+* Using Ollama from code through its API
+* Where it works well and where it fails
+
+Let's get started: [How does Ollama work?](https://outcomeschool.com/blog/how-does-ollama-work)
+
+---
+
 # Part 5: Architecture-Level Optimizations
 
 Beyond serving techniques, the model itself can be designed, picked, or shrunk for cheaper and faster inference.
