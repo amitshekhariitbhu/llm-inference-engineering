@@ -340,6 +340,27 @@ These optimizations come together inside real serving engines and model formats.
 
 ---
 
+## How does Model Serving work?
+
+In this blog, we will learn about how Model Serving works. We will also see why we need it, what happens step by step when a request comes in, how batching and replicas make it fast and scalable, online serving vs batch serving, and how monitoring and versioning keep it reliable.
+
+We will cover the following:
+
+* What is Model Serving?
+* Why we need Model Serving
+* The steps inside Model Serving
+* Loading the model weights into memory
+* Batching requests together for the GPU
+* Latency vs throughput
+* Scaling with replicas and a load balancer
+* Online serving vs batch serving
+* Serving frameworks
+* Monitoring and versioning
+
+Let's get started: [How does Model Serving work?](https://outcomeschool.com/blog/model-serving)
+
+---
+
 ## How does vLLM work?
 
 In this blog, we will learn about how vLLM works. We will also see why we need it, how it manages memory so cleverly, and where it is used in the real world to serve large language models to many users at once.
