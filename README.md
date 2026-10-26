@@ -127,6 +127,24 @@ Let's get started: [KV Cache Compression](https://outcomeschool.com/blog/kv-cach
 
 ---
 
+## How does an LLM use GPU memory?
+
+In this blog, we will learn about how an LLM uses GPU memory. We will also see what GPU memory is, the formula VRAM = weights + KV cache + overhead, how the weights, the KV cache, and the overhead each take up space, a complete worked-out example, and how we can reduce GPU memory usage.
+
+We will cover the following:
+
+* What is GPU memory (VRAM)?
+* The simple formula for GPU memory usage
+* What are weights and how much memory they take
+* What is the KV cache and how much memory it takes?
+* What is the overhead?
+* A complete worked-out example
+* How to reduce GPU memory usage
+
+Let's get started: [How does an LLM use GPU memory?](https://outcomeschool.com/blog/llm-gpu-memory)
+
+---
+
 ## Paged Attention in LLMs
 
 In this blog, we will learn about Paged Attention, a technique that solves the memory waste problem of KV Cache. It allows LLMs to serve many more users at the same time.
